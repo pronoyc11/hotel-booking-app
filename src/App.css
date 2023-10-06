@@ -8,8 +8,9 @@
   font-family: 'Averia Serif Libre', cursive;
 font-family: 'Open Sans', sans-serif;
 }
-/* body{
-  background-color: black;
-} */
+body{
+ margin-top: 5rem;
+ scroll-behavior: smooth;
+}
 /* reset code goes here */
 
