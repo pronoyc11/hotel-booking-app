@@ -1,0 +1,15 @@
+/* reset code goes here */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Averia Serif Libre', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+/* body{
+  background-color: black;
+} */
+/* reset code goes here */
+
