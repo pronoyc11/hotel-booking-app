@@ -1,0 +1,11 @@
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAILED = "AUTH_FAILED";
+export const AUTH_LOADING = "AUTH_LOADING";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+export const CLR_AUTH_MSG = "CLR_AUTH_MSG";
+export const CURRENT_USERNAME = "CURRENT_USERNAME";
+//FOR BOOKING DETAILS START
+export const FBD = "FBD";
+export const DRBDS = "DRBDS";
+//FOR BOOKING DETAILS END
+export const PUT_ROOMS ="PUT_ROOMS";

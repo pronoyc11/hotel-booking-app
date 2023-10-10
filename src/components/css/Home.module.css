@@ -1,0 +1,15 @@
+.showRoomUpDiv{
+    margin: var(--margin);
+    margin-top:7rem;
+    display: flex;
+    justify-content: space-between;   
+}
+strong{
+font-size: 1.1rem;
+color:var(--hoverColor2);
+display: block;
+}
+span{
+font-size: 1.1rem;
+
+}

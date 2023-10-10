@@ -1,0 +1,30 @@
+.roomDetails{
+    margin: var(--margin);
+    display: flex;
+    flex-direction: column;
+}
+.imageDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.img{
+    width: 20rem;
+    height: auto;
+    border: 1px solid var(--minorColor);
+    padding:0.1rem;
+    border-radius: 0.5rem;
+}
+hr{
+    margin: 1rem;
+}
+
+@media screen and (max-width: 998px) {
+    .img{
+        width: 100%;
+    }
+
+}

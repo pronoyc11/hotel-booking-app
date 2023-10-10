@@ -1,0 +1,44 @@
+.bdetail{
+    margin:1rem;
+    border: 1px solid var(--minorColor);
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 2rem;
+}
+.bdetail hr{
+    width: 100%;
+    margin: auto;
+}
+.bdetail h3{
+    color: var(--hoverColor2);
+}
+.bdetail div{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    justify-content:center;
+    align-items: center;
+   
+}
+ button{
+
+    padding:0.5rem 0.5rem;
+    font-size: 0.8rem;
+    border:none;
+    border-radius: 0.1rem;
+    background-color: var(--minorColor);
+    color: white;
+    transition: 0.3s;
+ }
+ button:hover{
+ 
+    cursor: pointer;
+    background-color: rgb(196, 23, 23);
+    box-shadow: var(--shadow);
+    transform:var(--hoverSize);
+    
+ }

@@ -4,13 +4,37 @@
   padding:0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style-type: none;
   font-family: 'Averia Serif Libre', cursive;
 font-family: 'Open Sans', sans-serif;
 }
 body{
- margin-top: 5rem;
+ margin-top: 6rem;
+ margin-left: 3rem;
+ margin-right: 3rem;
  scroll-behavior: smooth;
+ text-decoration: none;
+}
+:root {
+  --hoverColor1: #9E0000;
+  --hoverColor2: #003366;
+  --minorColor:#9C9895;
+  --padding:1.5rem;
+  --margin:3rem;
+  --shadow: 0.1rem 0.1rem 0.1rem #9C9895 , -0.1rem 0.01rem 0.1rem #9C9895 ;
+  --hoverShadow: 0.1rem 0.1rem 0.3rem #9C9895 , -0.1rem -0.1rem 0.3rem #9C9895;
+  --hoverSize: scale(1.01);
+}
+.text-center{
+  text-align: center;
 }
 /* reset code goes here */
+
+/*responsive code*/
+
+@media screen and (max-width:998px) {
+body{
+  margin-top: 15rem;
+}
+    
+}
 

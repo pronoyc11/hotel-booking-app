@@ -1,0 +1,90 @@
+{
+    "allrooms":[
+   {
+    "id":"101",
+    "adName":"Your perfect choice for honeymoon,couple bed with beautifull view",
+    "description":"Feel right at home in our generously sized Honeymoon Suite, designed with romance in mind and furnished with classical furniture.It is perfect for couples celebrating special occasions, or just those desiring the ultimate experience in spacious accommodations.",
+    "srcs":[
+        "https://demo.ilovewp.com/leonardo/wp-content/uploads/sites/43/2020/12/siena-house-2020-46-700x700.jpg",
+        "https://demo.ilovewp.com/leonardo/wp-content/uploads/sites/43/2020/12/siena-house-2020-50-700x700.jpg",
+        "https://demo.ilovewp.com/leonardo/wp-content/uploads/sites/43/2020/12/siena-house-2020-54-700x700.jpg"
+        
+    ],
+    "type":"Couple bed",
+    "window":2,
+    "services":"free wifi,Air conditioning",
+    "roomSize":"60m^2",
+    "price":120
+
+   },
+   {
+    "id":"102",
+    "adName":"Book a single room,live with yourself,have fun!!",
+    "description":"Feel right at home in our generously sized Honeymoon Suite, designed with romance in mind and furnished with classical furniture.It is perfect for couples celebrating special occasions, or just those desiring the ultimate experience in spacious accommodations.",
+    "srcs":[
+        "https://images.pexels.com/photos/5816562/pexels-photo-5816562.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/3993247/pexels-photo-3993247.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/3746281/pexels-photo-3746281.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "type":"Single bed",
+    "window":2,
+    "services":"free wifi,Air conditioning",
+    "roomSize":"50m^2",
+    "price":90
+
+   },
+   {
+    "id":"103",
+    "adName":"Book a bigger room,make party,or enjoy with your freinds!!",
+    "description":"Feel right at home in our generously sized Honeymoon Suite, designed with romance in mind and furnished with classical furniture.It is perfect for couples celebrating special occasions, or just those desiring the ultimate experience in spacious accommodations.",
+    "srcs":[
+        "https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/4046148/pexels-photo-4046148.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/3337209/pexels-photo-3337209.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "type":"Triple bed luxary",
+    "window":3,
+    "services":"free wifi,Air conditioning,Ocean view",
+    "roomSize":"120m^2",
+    "price":200
+
+   }
+   ,
+   {
+    "id":"104",
+    "adName":"Your stylist and standard enry-level room!",
+    "description":"Feel right at home in our generously sized Honeymoon Suite, designed with romance in mind and furnished with classical furniture.It is perfect for couples celebrating special occasions, or just those desiring the ultimate experience in spacious accommodations.",
+    "srcs":[
+        "https://images.pexels.com/photos/18313029/pexels-photo-18313029/free-photo-of-the-sun-shining-on-a-wall-and-desk-in-a-room.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/7319277/pexels-photo-7319277.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/3007355/pexels-photo-3007355.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "type":"Standard",
+    "window":2,
+    "services":"free wifi,customized book-shelf",
+    "roomSize":"120m^2",
+    "price":100
+
+   }
+   ,
+   {
+    "id":"105",
+    "adName":"An apartment like amenties include kitchen,dining and so more!",
+    "description":"Feel right at home in our generously sized Honeymoon Suite, designed with romance in mind and furnished with classical furniture.It is perfect for couples celebrating special occasions, or just those desiring the ultimate experience in spacious accommodations.",
+    "srcs":[
+       
+        "https://www.xotels.com/wp-content/uploads/2020/03/aparthotel-hotel-room-type-example-xotels-600x449.webp",
+        "https://images.pexels.com/photos/4112236/pexels-photo-4112236.jpeg?auto=compress&cs=tinysrgb&w=600",
+       
+        "https://images.pexels.com/photos/1906795/pexels-photo-1906795.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "type":"Aparthotel room",
+    "window":2,
+    "services":"free wifi,Air conditioning,kitchen,dining..etc.",
+    "roomSize":"200m^2",
+    "price":500
+
+   }
+
+    ]
+}
