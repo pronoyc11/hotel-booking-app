@@ -8,7 +8,7 @@ const Wellcome = () => {
       <h1>Discover your unique taste</h1>
       <h3>explore and book a room in our hotel!!</h3>
       <Link to="/home">
-        <button>
+        <button id={ids.wellcomeButton}>
           Get started <i className="fa-solid fa-arrow-right"></i>
         </button>
       </Link>

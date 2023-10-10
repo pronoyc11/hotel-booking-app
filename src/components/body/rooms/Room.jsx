@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import classes from "../../css/Room.module.css";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
+import { Tooltip } from "reactstrap";
 
 //STATE AND DISPATCH FUNCTION STARTS HERE
 const mapStateToProps = state =>{
@@ -11,6 +12,11 @@ const mapStateToProps = state =>{
 }
 //STATE AND DISPATCH FUNCTION ENDS HERE
 const Room = ({ room, allRooms,token }) => {
+  //STATES START HERE
+  const [tooltipOpen, setTooltipOpen] = useState(false);
+
+  const toggle = () => setTooltipOpen(!tooltipOpen);
+  //STATES END HERE
 
   useEffect(() => {
     //SETING VALUE OF ROOM BOOKED OR NOT STARTS
@@ -47,7 +53,18 @@ const navigateIt = ()=>{
         <img src={room.srcs[0]} alt="" />
 
         <div className={classes.roomDescription}>
-        <Link to="/roomDetails" state={room}><h3>{room.adName}</h3></Link>
+        <Link to="/roomDetails" state={room}><h3 id="tooltip">{room.adName}</h3></Link>
+        {/* TOOLTIP STARTS */}
+        <Tooltip
+        placement="top"
+        isOpen={tooltipOpen}
+        autohide={false}
+        target="tooltip"
+        toggle={toggle}
+      >
+        Tap to see room details
+      </Tooltip>
+      {/* TOOLTIP ENDS */}
           <h4>Room sector: {room.id}</h4>
           <ul className={classes.lowerSide}>
             <li className={classes.type}>
