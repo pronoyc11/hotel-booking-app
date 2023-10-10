@@ -68,7 +68,7 @@ const navigateIt = ()=>{
           <h4>Room sector: {room.id}</h4>
           <ul className={classes.lowerSide}>
             <li className={classes.type}>
-              <h4>Type : {room.type}</h4>
+              <h4>Category : {room.type}</h4>
             </li>
             <li className={classes.price}>Price: {room.price} $</li>
           </ul>

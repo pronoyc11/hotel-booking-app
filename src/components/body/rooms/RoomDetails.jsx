@@ -34,7 +34,7 @@ const images = room.srcs.map(img => {
   </div>
   <hr />
   <div>
-    <strong>Type:</strong> <p>{room.type}</p> 
+    <strong>Category:</strong> <p>{room.type}</p> 
   </div>
   <hr />
   <div>
